@@ -5,7 +5,7 @@ metadata:
   labels:
     app: studentportfolio
 spec:
-  replicas: 2
+  replicas: 3
   revisionHistoryLimit: 2
   selector:
     matchLabels:
@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/pldelatorre/devops_module_6_part_3-studentportfolio:7ada223e8f39ba3d079041b92fbb8ddbbfa9c72d
+          image: ghcr.io/pldelatorre/devops_module_6_part_3-studentportfolio:7b8aed169210321ec7297a9afaad2613dbbc41c7
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
