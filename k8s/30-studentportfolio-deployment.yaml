@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/pldelatorre/devops_module_6_part_3-studentportfolio:c4d995308d88cb8ca30dbf8ff23ff3215d809e76
+          image: ghcr.io/pldelatorre/devops_module_6_part_3-studentportfolio:7ada223e8f39ba3d079041b92fbb8ddbbfa9c72d
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
